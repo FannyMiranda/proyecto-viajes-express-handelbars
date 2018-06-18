@@ -1,0 +1,37 @@
+<section id="inicio">
+     
+    <div id="gridprincipal" class="container-fluid">
+            
+        <link rel='stylesheet' href='/stylesheets/registro.css'/>
+   
+        <form name="form" id="signUp" method="post">
+            <div id="registerCard" class="container-fluid">
+                <h1>Regístrate</h1>
+                <p>Rellena los campos para crear una cuenta</p>
+                <div id="hr"><hr></div>
+
+                <label for="username"><b>Usuario</b></label>
+                <input type="text" placeholder="Usuario" name="username">
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="ejemplo@ejemplo.com" name="email">
+
+                <label for="psw"><b>Contraseña</b></label>
+                <input type="password" id="psw" placeholder="Introducir contraseña" name="psw">
+
+                <label for="psw-repeat"><b>Repetir contraseña</b></label>
+                <input type="password" placeholder="Repetir contraseña" name="pswconfirm">
+
+                <p>Al crear la cuenta estas de acuerdo con los <a href="#" style="color:#566679">Términos & Privacidad</a>.</p>
+
+                <div class="clearfix">
+                    <div class="row">
+                        <button class="col-md-1.5" type="button" class="cancelbtn col" onclick="relocateHome()">Cancel</button>
+                        <button class="col-md-2" type="submit" class="signupbtn col">Sign Up</button>
+                    </div>
+                    <br><br><br><br>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

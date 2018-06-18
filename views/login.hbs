@@ -1,0 +1,37 @@
+<section id="inicio">
+     
+    <div id="gridprincipal" class="container">
+            
+        <link rel='stylesheet' href='/stylesheets/login.css'/>
+   
+        <form name="form" id="signUp" method="post">
+            <div id="registerCard" class="container-fluid">
+                <h1>Login</h1>
+                <p>Rellena los campos</p>
+                <div id="hr"><hr></div>
+
+                <label for="username"><b></b></label>
+                <input type="text" placeholder="Usuario" name="username">
+
+
+                <label for="psw"><b>Contraseña</b></label>
+                <input type="password" id="psw" placeholder="Introducir contraseña" name="psw">
+
+
+                <div class="clearfix">
+                    <div class="row">
+                        <button class="col-md-1.5" type="button" class="cancelbtn col" onclick="relocateHome()">Cancel</button>
+                        <button class="col-md-2" type="submit" class="signupbtn col">Login Up</button>
+                    </div>
+                    
+                </div>
+                <br><br><br><br>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+{{#if info}}
+    <div> <h1>ERROR {{info}} </h1></div>
+{{/if}}

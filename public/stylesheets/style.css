@@ -1,8 +1,137 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+#header_wrapper {
+  background: url("/images/Australia1.jpg") no-repeat center top;
+  min-height: 800px;
+  width: 100%;
+  z-index: 1;
+  background-attachment: fixed;
+  position: relative;
+}
+#logotipo {
+  position: absolute;
+  margin-top: 580px;
+  color:#eaf2f9;
+}
+
+.contact {
+  background:rgba(110, 196, 185, 0.3);
+  opacity: 0.8;
+}
+.container {
+  font-family: 'Indie Flower', cursive;
+}
+
+.form-control {
+  box-shadow: 3px 3px 3px #2c6158;
+  
+}
+
+
+footer {
+  background: url("/images/textura-agua.jpg");
+  background-size: 100%;
+  color: #2c6158
+}
+
+.btn {
+  color: #36716a;
+  box-shadow: 6px 6px 6px #274e86;
+}
+.copyright{
+  text-align: center;
 }
 
 a {
-  color: #00B7FF;
+  font-size: 30px;
+  color: #38205d;
 }
+
+.btn-outline-secondary:hover{
+  background-color:  #274e86;
+}
+
+
+nav {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  overflow: auto;
+
+}
+
+nav ul {
+  margin: 0 auto;
+  width: 940px;
+  list-style: none;
+  top: 30px;
+  
+}
+
+nav ul li {
+  float: left;
+  
+}
+
+nav ul li a {
+  display: block;
+  margin-right: 20px;
+  width: 140px;
+  font-size: 14px;
+  line-height: 44px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+#navbarTogglerDemo02{
+
+  justify-content:left;
+}
+
+.navbar-collapse .navbar-nav li a{
+  color: white!important;
+  text-shadow: 1px 1px 1px black;
+}
+
+/*Mouse encima*/
+.navbar-collapse .navbar-nav li a:hover{
+  color: White!important;
+}
+
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+nav ul li.selected a {
+  color: #fff;
+  backdrop-filter: blur(10px);
+}
+
+.textpeq {
+  font-size: 20px;
+}
+
+#mobile {
+  display: none;
+}
+
+@media (max-width: 766px) {
+  #mobile {
+    display: inline;
+  }
+#desktop{
+  display: none;
+}
+}
+@media (max-width: 766px){
+  .contact{
+    display:none;
+  }
+}
+@media (max-height: 1024px) {
+  footer {
+      display:none;
+  }
+}
+
