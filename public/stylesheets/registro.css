@@ -1,13 +1,21 @@
 #inicio{
  
     background: url("/images/invierno11-a.jpg") ;
+    background-size: 80%;
+    background-repeat: no-repeat;
     min-height: 100%;
-    width: 100%;
+    width: 80%;
     background-repeat: no-repeat;
     background-size: 100%;
     color: #335386;
+  
     
 }
+/*body{
+    background: url("/images/invierno11-a.jpg") ;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}*/
 #gridprincipal{
     margin-top:4vh !important;
     
@@ -66,4 +74,20 @@ input[type=text], input[type=password] {
     .navbar-nav{
         display:none;
     }
+}
+
+/* 404 Style */
+
+.message404 {
+    text-align: center;
+    color: white;
+    padding: 2em;
+    background-color: rgba(0,0,0,0.5);
+}
+.message404 h3{
+    color: white;
+}
+
+.hr-center {
+    margin-left: auto;
 }

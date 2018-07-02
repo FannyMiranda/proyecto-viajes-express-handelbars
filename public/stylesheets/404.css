@@ -1,0 +1,31 @@
+
+/* 404 Style */
+
+.message404 {
+    text-align: center;
+    color: white;
+    padding: 2em;
+    background-color: rgba(0,0,0,0.29);
+    margin-left: 50%;
+}
+.message404 h3{
+    color: white;
+    text-align: right;
+}
+
+.hr-center {
+    margin-left: auto;
+}
+#login {
+  
+    background-size: cover;
+    
+}
+.body404 {
+    background: url("/images/404.jpg");
+}
+a:-webkit-any-link {
+    color:white;
+    text-align: center;
+
+}

@@ -6,6 +6,7 @@ const RegistroController = require('../controllers/registroController');
 
 
 Router.get('/',(req, res, next)=>{
+
  let registroController = new RegistroController(req, res, next);
  registroController.index();
 });

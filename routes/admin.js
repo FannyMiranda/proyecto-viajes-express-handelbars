@@ -5,8 +5,9 @@ Router.get('/',(req,res,next)=>{
   res.status(200).json(req.session.username || "Sesión no creada");
 })
 
+
 Router.get('/create',(req, res, next)=>{
-  req.session.username="xrodriguez";
+  req.session.username="Miranda";
   req.session.isAdmin = true;
   res.redirect('/admin');
 })

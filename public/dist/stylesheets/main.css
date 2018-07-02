@@ -1,14 +1,58 @@
 
+/* 404 Style */
+
+.message404 {
+    text-align: center;
+    color: white;
+    padding: 2em;
+    background-color: rgba(0,0,0,0.29);
+    margin-left: 50%;
+}
+.message404 h3{
+    color: white;
+    text-align: right;
+}
+
+.hr-center {
+    margin-left: auto;
+}
+#login {
+  
+    background-size: cover;
+    
+}
+.body404 {
+    background: url("/images/404.jpg");
+}
+a:-webkit-any-link {
+    color:white;
+    text-align: center;
+
+}
+
+@media (min-height: 800px) {
+    .navbar-nav{
+        display:none;
+    }
+}
 #inicio{
  
     background: url("/images/invierno11-a.jpg") ;
+    background-size: 80%;
+    background-repeat: no-repeat;
     min-height: 100%;
-    width: 100%;
+    width: 80%;
     background-repeat: no-repeat;
     background-size: 100%;
     color: #335386;
+  
     
 }
+/*body{
+    background: url("/images/invierno11-a.jpg") ;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}*/
 #gridprincipal{
     margin-top:4vh !important;
     
@@ -69,6 +113,21 @@ input[type=text], input[type=password] {
     }
 }
 
+/* 404 Style */
+
+.message404 {
+    text-align: center;
+    color: white;
+    padding: 2em;
+    background-color: rgba(0,0,0,0.5);
+}
+.message404 h3{
+    color: white;
+}
+
+.hr-center {
+    margin-left: auto;
+}
 #header_wrapper {
   background: url("/images/Australia1.jpg") no-repeat center top;
   min-height: 800px;
@@ -117,8 +176,10 @@ a {
 }
 
 .btn-outline-secondary:hover{
-  background-color:  #274e86;
+
+  background-color:  #274e86; 
 }
+
 
 
 nav {
@@ -187,6 +248,12 @@ nav ul li.selected a {
   display: none;
 }
 
+
+.btn-outline-secondary:hover{
+
+  background-color:  #274e86!important; 
+}
+
 @media (max-width: 766px) {
   #mobile {
     display: inline;
@@ -205,4 +272,5 @@ nav ul li.selected a {
       display:none;
   }
 }
+
 

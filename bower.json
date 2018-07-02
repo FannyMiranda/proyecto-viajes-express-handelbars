@@ -3,10 +3,10 @@
   "description": "",
   "main": "",
   "authors": [
-    "andresfalla <jennierandresfallasilva16@gmail.com>"
+    "FannyMiranda <fannymirandaalemany@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/andresfalla/proyectos",
+  "homepage": "https://github.com/fannymiranda",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^4.1.1"
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1"
   }
 }

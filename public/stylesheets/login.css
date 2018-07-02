@@ -1,0 +1,5 @@
+@media (min-height: 800px) {
+    .navbar-nav{
+        display:none;
+    }
+}

@@ -46,8 +46,10 @@ a {
 }
 
 .btn-outline-secondary:hover{
-  background-color:  #274e86;
+
+  background-color:  #274e86; 
 }
+
 
 
 nav {
@@ -116,6 +118,12 @@ nav ul li.selected a {
   display: none;
 }
 
+
+.btn-outline-secondary:hover{
+
+  background-color:  #274e86!important; 
+}
+
 @media (max-width: 766px) {
   #mobile {
     display: inline;
@@ -134,4 +142,5 @@ nav ul li.selected a {
       display:none;
   }
 }
+
 
